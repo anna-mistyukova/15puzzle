@@ -1,0 +1,11 @@
+.timer {
+  display: flex;
+}
+
+.timer > .timer__time {
+  display: flex ;
+}
+
+button {
+  margin: 0 2px;
+}

@@ -1,0 +1,40 @@
+.gameboard__block {
+  position: relative;
+  flex-basis: calc(25% - 10px);
+  margin: 5px;
+  border: 3px solid #eee;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #fff2af;
+}
+
+.gameboard__block::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.gameboard__block > .content {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  font-weight: bold;
+  color: #776e65;
+}
+
+.gameboard__block.clickable-block:hover {
+  cursor: pointer;
+  background-color: #ffe974;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+
+.gameboard__block.empty-block {
+  background-color: #fafafa;
+}

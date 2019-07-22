@@ -1,0 +1,68 @@
+.game {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.congrats {
+  color: green;
+}
+
+.game__game-controls {
+  display: block;
+  margin: 20px 10px 10px;
+}
+
+.game__game-controls button {
+  color: #212529;
+  background-color: #f8f9fa;
+  display: inline-block; 
+  border: 1px solid #eee;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: inherit;
+}
+
+.game__game-controls button:hover {
+  cursor: pointer;
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.game__game-timings {
+  margin: 10px 10px;
+}
+
+.game__game-timings > span {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.game__game-controls > span {
+  display: inline-block; 
+  margin-right: 10px;
+}
+
+.game__game-controls > span:last-child {
+  margin-right: 0px;
+}
+
+.game__gameboard-wrapper__gameboard { 
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fdfdfd;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+.bold {
+  font-weight: bold;
+}
